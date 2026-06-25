@@ -1,0 +1,7 @@
+rdetoolkit==1.6.4
+plotly==6.3.1
+scipy==1.16.2
+pydantic_xml==2.18.0
+pandas-stubs==2.3.3.251201
+scipy-stubs==1.16.2
+requests==2.32.3

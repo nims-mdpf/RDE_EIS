@@ -1,0 +1,9 @@
+system:
+  save_raw: false
+  save_nonshared_raw: true
+  magic_variable: false
+  save_thumbnail_image: true
+smarttable:
+    save_table_file: false
+eis:
+    manufacturer: 'Scribner'

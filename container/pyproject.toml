@@ -1,0 +1,148 @@
+[project]
+name = "EIS"
+version = "1.0.0"
+
+[tool.coverage.run]
+omit = ["tests/*"]
+
+[tool.coverage.report]
+# Regexes for lines to exclude from consideration
+exclude_also = [
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+    "if self\\.debug",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ == .__main__.:",
+
+    # Don't complain about abstract methods, they aren't run:
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.ruff]
+line-length = 120
+select = [
+    "F",    # pyflakes
+    "E",    # pycodestyle
+    "W",    # pycodestyle warnings
+    "I",    # isort
+    "D",    # pydocstyle
+    "N",    # pep8-naming
+    "PL",   # Pylint,
+    "C90",  # mccabe
+    "UP",   # pyupgrade
+    "ANN",  # flake8-annotations
+    "S",    # flake8-bandit
+    "B",    # flake8-bugbear
+    "A",    # flake8-builtins
+    "COM",  # flake8-commas
+    "C4",   # flake8-comprehensions
+    "DTZ",  # flake8-datetimez
+    "EM",   # flake8-errmsg
+    "FA",   # flake8-future-annotations
+    "ISC",  # flake8-implicit-str-concat
+    "ICN",  # flake8-import-conventions
+    "INP",  # flake8-no-pep420
+    "PIE",  # flake8-pie
+    "T10",  # flake8-debugger
+    "T20",  # flake8-print
+    "PYI",  # flake8-pyi
+    "RSE",  # flake8-raise
+    "RET",  # flake8-return
+    "SLF",  # flake8-self
+    "SLOT", # flake8-slots
+    "SIM",  # flake8-simplify
+    "TID",  # flake8-tidy-imports
+]
+ignore = [
+    "ANN002",
+    "ANN003",
+    "ANN101",
+    "ANN102",
+    "ANN204",
+    "ANN401",
+    "BLE001",
+    "D100",
+    "D101",
+    "D104",
+    "D105",
+    "D107",
+    "N805",
+    "PLR0913",
+    "S307",
+    "S603",
+    "PLR0915",
+]
+exclude = [
+    "bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+    "tests",
+    "stubs",
+]
+
+[tool.pyrefly]
+untyped-def-behavior = "check-and-infer-return-type"
+# use-untyped-imports = true
+ignore-missing-source = true
+replace-imports-with-any = [
+    "pandas.*",
+    "numpy.*",
+    "requests.*",
+    "matplotlib.*",
+    "scipy.*",
+    "rdetoolkit.*",
+    "modules.*",
+]
+# Set to false because our project rarely uses auto-generated code
+# such as Protocol Buffers, Django ORM migrations, GraphQL code generation,
+# or OpenAPI/Swagger generated code. We prefer to maintain consistent
+# type checking across all source files.
+ignore-errors-in-generated-code=false
+
+# project-includes = ["**/*.py", "**/*.pyi"]
+project-excludes = ["tests/**", "**/.[!/.]*", "**/__pycache__/**"]
+python-version = "3.12"
+python-platform = "linux"
+
+[tool.pyrefly.errors]
+bad-assignment = true
+bad-argument-type = true
+bad-argument-count = true
+missing-argument = true
+# import-error = true
+invalid-annotation = true
+missing-attribute = false
+not-callable = true
+bad-return = true
+bad-override = true
+unbound-name = true
+assert-type = true
