@@ -1,0 +1,446 @@
+{
+    "conductivity.total.approximate_formula.log_sigma_t": {
+        "name": {
+            "ja": "導電率 total 近似式 (fit by logσT)",
+            "en": "Conductivity total Approximate Formula (fit by logσT)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 1
+    },
+    "conductivity.total.activation_energy_ev.log_sigma_t": {
+        "name": {
+            "ja": "活性化エネルギー total  (eV) (fit by logσT)",
+            "en": "Activation Energy total (eV) (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 2,
+        "unit": "eV"
+    },
+    "conductivity.total.activation_energy_kjmol.log_sigma_t": {
+        "name": {
+            "ja": "活性化エネルギー total  (KJ/mol) (fit by logσT)",
+            "en": "Activation Energy total (KJ/mol) (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 3,
+        "unit": "KJ/mol"
+    },
+    "conductivity.total.conductivity_300k.log_sigma_t": {
+        "name": {
+            "ja": "導電率 at 300K total (fit by logσT)",
+            "en": "Conductivity at 300K total (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 4,
+        "unit": "S/cm"
+    },
+    "conductivity.total.preexponetial_term.log_sigma_t": {
+        "name": {
+            "ja": "前指数項 total (fit by logσT)",
+            "en": "Pre-exponential Term total (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 5
+    },
+    "conductivity.bulk.approximate_formula.log_sigma_t": {
+        "name": {
+            "ja": "導電率 bulk 近似式 (fit by logσT)",
+            "en": "Conductivity bulk Approximate Formula (fit by logσT)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 6
+    },
+    "conductivity.bulk.activation_energy_ev.log_sigma_t": {
+        "name": {
+            "ja": "活性化エネルギー bulk  (eV) (fit by logσT)",
+            "en": "Activation Energy bulk (eV) (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 7,
+        "unit": "eV"
+    },
+    "conductivity.bulk.activation_energy_kjmol.log_sigma_t": {
+        "name": {
+            "ja": "活性化エネルギー bulk  (KJ/mol) (fit by logσT)",
+            "en": "Activation Energy bulk (KJ/mol) (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 8,
+        "unit": "KJ/mol"
+    },
+    "conductivity.bulk.conductivity_300k.log_sigma_t": {
+        "name": {
+            "ja": "導電率 at 300K bulk (fit by logσT)",
+            "en": "Conductivity at 300K bulk (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 9,
+        "unit": "S/cm"
+    },
+    "conductivity.bulk.preexponetial_term.log_sigma_t": {
+        "name": {
+            "ja": "前指数項 bulk (fit by logσT)",
+            "en": "Pre-exponential Term bulk (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 10
+    },
+    "conductivity.gb.approximate_formula.log_sigma_t": {
+        "name": {
+            "ja": "導電率 粒界 近似式 (fit by logσT)",
+            "en": "Conductivity grain boundary Approximate Formula (fit by logσT)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 11
+    },
+    "conductivity.gb.activation_energy_ev.log_sigma_t": {
+        "name": {
+            "ja": "活性化エネルギー 粒界 (eV) (fit by logσT)",
+            "en": "Activation Energy grain boundary (eV) (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 12,
+        "unit": "eV"
+    },
+    "conductivity.gb.activation_energy_kjmol.log_sigma_t": {
+        "name": {
+            "ja": "活性化エネルギー粒界 (KJ/mol) (fit by logσT)",
+            "en": "Activation Energy grain boundary (KJ/mol) (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 13,
+        "unit": "KJ/mol"
+    },
+    "conductivity.gb.conductivity_300k.log_sigma_t": {
+        "name": {
+            "ja": "導電率 at 300K 粒界 (fit by logσT)",
+            "en": "Conductivity at 300K grain boundary (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 14,
+        "unit": "S/cm"
+    },
+    "conductivity.gb.preexponetial_term.log_sigma_t": {
+        "name": {
+            "ja": "前指数項 粒界 (fit by logσT)",
+            "en": "Pre-exponential Term grain boundary (fit by logσT)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 15
+    },
+    "conductivity.total.approximate_formula.log_sigma": {
+        "name": {
+            "ja": "導電率 total 近似式 (fit by logσ)",
+            "en": "Conductivity total Approximate Formula (fit by logσ)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 16
+    },
+    "conductivity.total.activation_energy_ev.log_sigma": {
+        "name": {
+            "ja": "活性化エネルギー total  (eV) (fit by logσ)",
+            "en": "Activation Energy total (eV) (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 17,
+        "unit": "eV"
+    },
+    "conductivity.total.activation_energy_kjmol.log_sigma": {
+        "name": {
+            "ja": "活性化エネルギー total  (KJ/mol) (fit by logσ)",
+            "en": "Activation Energy total (KJ/mol) (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 18,
+        "unit": "KJ/mol"
+    },
+    "conductivity.total.conductivity_300k.log_sigma": {
+        "name": {
+            "ja": "導電率 at 300K total (fit by logσ)",
+            "en": "Conductivity at 300K total (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 19,
+        "unit": "S/cm"
+    },
+    "conductivity.total.preexponetial_term.log_sigma": {
+        "name": {
+            "ja": "前指数項 total (fit by logσ)",
+            "en": "Pre-exponential Term total (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 20
+    },
+    "conductivity.bulk.approximate_formula.log_sigma": {
+        "name": {
+            "ja": "導電率 bulk 近似式 (fit by logσ)",
+            "en": "Conductivity bulk Approximate Formula (fit by logσ)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 21
+    },
+    "conductivity.bulk.activation_energy_ev.log_sigma": {
+        "name": {
+            "ja": "活性化エネルギー bulk  (eV) (fit by logσ)",
+            "en": "Activation Energy bulk (eV) (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 22,
+        "unit": "eV"
+    },
+    "conductivity.bulk.activation_energy_kjmol.log_sigma": {
+        "name": {
+            "ja": "活性化エネルギー bulk  (KJ/mol) (fit by logσ)",
+            "en": "Activation Energy bulk (KJ/mol) (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 23,
+        "unit": "KJ/mol"
+    },
+    "conductivity.bulk.conductivity_300k.log_sigma": {
+        "name": {
+            "ja": "導電率 at 300K bulk (fit by logσ)",
+            "en": "Conductivity at 300K bulk (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 24,
+        "unit": "S/cm"
+    },
+    "conductivity.bulk.preexponetial_term.log_sigma": {
+        "name": {
+            "ja": "前指数項 bulk (fit by logσ)",
+            "en": "Pre-exponential Term bulk (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 25
+    },
+    "conductivity.gb.approximate_formula.log_sigma": {
+        "name": {
+            "ja": "導電率 粒界 近似式 (fit by logσ)",
+            "en": "Conductivity grain boundary Approximate Formula (fit by logσ)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 26
+    },
+    "conductivity.gb.activation_energy_ev.log_sigma": {
+        "name": {
+            "ja": "活性化エネルギー 粒界 (eV) (fit by logσ)",
+            "en": "Activation Energy grain boundary (eV) (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 27,
+        "unit": "eV"
+    },
+    "conductivity.gb.activation_energy_kjmol.log_sigma": {
+        "name": {
+            "ja": "活性化エネルギー 粒界 (KJ/mol) (fit by logσ)",
+            "en": "Activation Energy grain boundary (KJ/mol) (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 28,
+        "unit": "KJ/mol"
+    },
+    "conductivity.gb.conductivity_300k.log_sigma": {
+        "name": {
+            "ja": "導電率 at 300K 粒界 (fit by logσ)",
+            "en": "Conductivity at 300K grain boundary (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 29,
+        "unit": "S/cm"
+    },
+    "conductivity.gb.preexponetial_term.log_sigma": {
+        "name": {
+            "ja": "前指数項 粒界 (fit by logσ)",
+            "en": "Pre-exponential Term grain boundary (fit by logσ)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "order": 30
+    },
+    "impedance.file": {
+        "name": {
+            "ja": "インピーダンス ファイル",
+            "en": "Impedance File"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 31,
+        "variable": 1
+    },
+    "impedance.temperature_k": {
+        "name": {
+            "ja": "インピーダンス 温度 (K)",
+            "en": "Impedance Temperature (K)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 32,
+        "variable": 1,
+        "unit": "K"
+    },
+    "impedance.temperature_c": {
+        "name": {
+            "ja": "インピーダンス 温度 (C)",
+            "en": "Impedance Temperature (C)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 33,
+        "variable": 1,
+        "unit": "C"
+    },
+    "impedance.mpt.acquisition_started_on": {
+        "name": {
+            "ja": "インピーダンス Acquisition started on",
+            "en": "Impedance Acquisition started on"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 34,
+        "variable": 1
+    },
+    "impedance.mpt.technique_started_on": {
+        "name": {
+            "ja": "インピーダンス Technique started on",
+            "en": "Impedance Technique started on"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 35,
+        "variable": 1
+    },
+    "impedance.mpt.potential_control": {
+        "name": {
+            "ja": "インピーダンス Potential control",
+            "en": "Impedance Potential control"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 36,
+        "variable": 1
+    },
+    "impedance.mpt.ewe_ctrl_range_min": {
+        "name": {
+            "ja": "インピーダンス Ewe ctrl range min",
+            "en": "Impedance Ewe ctrl range min"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 37,
+        "variable": 1,
+        "unit": "V"
+    },
+    "impedance.mpt.ewe_ctrl_range_max": {
+        "name": {
+            "ja": "インピーダンス Ewe ctrl range max",
+            "en": "Impedance Ewe ctrl range max"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 38,
+        "variable": 1,
+        "unit": "V"
+    },
+    "impedance.mpt.ewe_I_filtering": {
+        "name": {
+            "ja": "インピーダンス Ewe,I filtering",
+            "en": "Impedance Ewe,I filtering"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 39,
+        "variable": 1,
+        "unit": "kHz"
+    },
+    "impedance.mpt.device": {
+        "name": {
+            "ja": "インピーダンス Device",
+            "en": "Impedance Device"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 40,
+        "variable": 1
+    },
+    "impedance.mpt.software": {
+        "name": {
+            "ja": "インピーダンス Software",
+            "en": "Impedance Software"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "order": 41,
+        "variable": 1
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "datasetId": "1s1xxxxf4-0d1v-41b0-1dea-2 3bf4dh09gxx",
+    "basic": {
+        "dateSubmitted": "2026-05-21",
+        "dataOwnerId": "0cxx3ef274f28e611de4074638b4dc43e737ab9931323435323434xx",
+        "dataName": "sample",
+        "instrumentId": null,
+        "experimentId": null,
+        "description": ""
+    },
+    "custom": {
+        "pellet.diameter": "1",
+        "pellet.area": "2",
+        "pellet.thickness": "3",
+        "common_data_type": "EIS",
+        "common_data_origin": "experiments",
+        "common_technical_category": "measurement",
+        "common_reference": null,
+        "measurement_method_category": "電気化学",
+        "measurement_method_sub_category": "電気化学インピーダンス分光法",
+        "measurement_analysis_field": null,
+        "measurement_measurement_environment": null,
+        "measurement_energy_level_transition_structure_etc_of_interest": null,
+        "measurement_measured_date": null,
+        "measurement_standardized_procedure": null,
+        "measurement_instrumentation_site": null
+    },
+    "sample": {
+        "sampleId": "e9b306b8-f288-4f78-890e-6307e41a8998",
+        "names": [
+            "dummy"
+        ],
+        "composition": null,
+        "referenceUrl": null,
+        "description": null,
+        "generalAttributes": [],
+        "ownerId": "0cxx3ef274f28e611de4074638b4dc43e737ab9931323435323434xx"
+    }
+}
