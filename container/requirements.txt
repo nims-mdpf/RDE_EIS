@@ -1,4 +1,4 @@
-rdetoolkit==1.6.4
+rdetoolkit==1.7.1
 plotly==6.3.1
 scipy==1.16.2
 pydantic_xml==2.18.0

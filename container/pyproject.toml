@@ -1,6 +1,7 @@
 [project]
 name = "EIS"
-version = "1.0.0"
+version = "1.0.1"
+requires-python = ">=3.12,<3.13"
 
 [tool.coverage.run]
 omit = ["tests/*"]
@@ -77,6 +78,7 @@ ignore = [
     "S307",
     "S603",
     "PLR0915",
+    "PLR0917"
 ]
 exclude = [
     "bzr",
