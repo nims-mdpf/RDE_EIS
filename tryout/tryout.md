@@ -10,7 +10,7 @@ RDEデータセットテンプレート `EIS` をローカル開発環境で動�
 
 以下の開発環境を用意してください。
 
-* Python ver3.11以上
+* Python ver3.12以上
 
   * RDEの構造化処理プログラムはPythonを用いています
 * pyenvなど仮想環境で動作させることを推奨
@@ -86,7 +86,7 @@ workフォルダには以下の内容のフォルダが用意されています�
 4. 仮想環境作成(pyenvの事例)
 
    ```cmd
-   $ pyenv local 3.12
+   $ pyenv local 3.12.9
    $ python -m venv venv
    $ . venv/bin/activate
    (venv) $ pip install pip --upgrade

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Any, Generic, TypeVar
+from typing import Any, TypeVar
 
 import pandas as pd
 from rdetoolkit.models.rde2types import MetaType, RepeatedMetaType
@@ -128,7 +128,7 @@ class IInputFileParser(ABC):
         raise NotImplementedError
 
 
-class IMetaParser(ABC, Generic[T]):
+class IMetaParser[T](ABC):
     """Abstract base class (interface) for meta information parsers.
 
     This interface defines the contract that meta information parser
